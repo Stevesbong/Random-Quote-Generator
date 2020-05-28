@@ -35,7 +35,9 @@ const quotes = [
 ]
 
 // VARIOUS HEX CODE COLOR
-const randomBackgroundColor = [ "#deb2ee", "#7ee6fd", "#88d9a0", "#4da2bb", "#51ddfc" ];
+const randomBackgroundColor = [ 
+  "#deb2ee", "#7ee6fd", "#88d9a0", "#4da2bb", "#51ddfc", "#5b85b7", "#fd9f85" 
+];
 
 
 // GET RANDOM ONE QUOTE FROM QUOTES ARRAY
@@ -102,4 +104,4 @@ document.getElementById('load-quote').addEventListener("click", printQuote, fals
 
 // AUTO-REFRESHED QUOTES
 // AUTOMATICALLY UPDATS QUOTE EVERY 10 SECOND
-setInterval( printQuote, 10000);
+setInterval( printQuote, 5000);
