@@ -103,5 +103,5 @@ document.getElementById('load-quote').addEventListener("click", printQuote, fals
 
 
 // AUTO-REFRESHED QUOTES
-// AUTOMATICALLY UPDATS QUOTE EVERY 10 SECOND
+// AUTOMATICALLY UPDATS QUOTE EVERY 5 SECOND
 setInterval( printQuote, 5000);
